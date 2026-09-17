@@ -43,6 +43,35 @@
 //    }
 //}
 
+//Appsettings.json content check
+
+//using System;
+//using Microsoft.Extensions.Configuration;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        IConfiguration configuration = new ConfigurationBuilder()
+//            .SetBasePath(AppContext.BaseDirectory)
+//            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+//            .Build();
+
+//        string applicationName = configuration["AppSettings:ApplicationName"];
+//        string version = configuration["AppSettings:Version"];
+//        string environment = configuration["AppSettings:Environment"];
+
+//        string connectionString =
+//            configuration.GetConnectionString("DefaultConnection");
+
+//        Console.WriteLine("Application Name: " + applicationName);
+//        Console.WriteLine("Version: " + version);
+//        Console.WriteLine("Environment: " + environment);
+//        Console.WriteLine("Connection String: " + connectionString);
+//    }
+//}
+
+
 //OPERATORS DEMOSTRATION
 
 //using System;
