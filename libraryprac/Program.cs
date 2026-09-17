@@ -42,6 +42,55 @@
 //        }
 //    }
 //}
+
+//OPERATORS DEMOSTRATION
+
+//using System;
+
+//class Program
+//{
+//    static void Main()
+//    {
+//        int? nullableNumber = null;
+
+//        Console.WriteLine("Nullable number: " + nullableNumber);
+
+//        nullableNumber = 50;
+
+//        Console.WriteLine("Nullable number after assigning: " + nullableNumber);
+
+//        int age = 22;
+
+//        string result = age >= 18
+//            ? "Adult"
+//            : "Minor";
+
+//        Console.WriteLine("\nTernary result: " + result);
+
+//        string? name = null;
+
+//        string displayName = name ?? "Guest";
+
+//        Console.WriteLine("\nDisplay name: " + displayName);
+
+//        name = "Yash";
+
+//        displayName = name ?? "Guest";
+
+//        Console.WriteLine("Display name: " + displayName);
+
+//        string? username = null;
+
+//        username ??= "DefaultUser";
+
+//        Console.WriteLine("\nUsername: " + username);
+
+//        username ??= "AnotherUser";
+
+//        Console.WriteLine("Username: " + username);
+//    }
+//}
+
 //using System;
 //using NLog;
 //using NLog.Config;
